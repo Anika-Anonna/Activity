@@ -6,11 +6,7 @@
     line-height: 54px;
     letter-spacing: 5px;
     color: #333;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 4px solid #333;
-    box-sizing: 10px;
+    text-align: center;
 }
 .min-title{
     font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -144,9 +140,6 @@ header .navbar-toggler {
 .services{
     background: #30c39e;
 }
-.services .sub-title{
-    border-bottom: 4px solid #fff !important;
-}
 .services .sub-title,
 .services .min-title,
 .services .p {
@@ -201,10 +194,6 @@ header .navbar-toggler {
     width: auto;
     margin: 0px auto;
 }
-.blog .sub-title{
-    color: #fff;
-    border-bottom: 4px solid #fff !important;
-}
 .blog .blog-article{
     max-width: 330px;
     padding: 20px;
@@ -230,3 +219,39 @@ header .navbar-toggler {
     transition: 0.5s;
 }
 /* Experience end */
+/* info start */
+.info{
+    background:#0c8ea0;
+}
+.info-article{
+    color: #fff;
+}
+.info-article p{
+    color: #ddd;
+}
+.info-article .btn{
+    padding: 10px;
+    border-radius: 3px;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #0c8ea0;
+    background: #fff;
+    text-align: center;
+}
+.info-article .btn:hover{
+    background: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+.info-article .btn:last-child{
+    background: #333;
+    color: #fff;
+}
+.info-article .btn:last-child:hover{
+    color: #0c8ea0;
+    background: #fff;
+    transition: 0.5s;
+}
+/* info end */
