@@ -1,0 +1,232 @@
+/* common font start */
+.sub-title{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 5px;
+    color: #333;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #333;
+    box-sizing: 10px;
+}
+.min-title{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #333;
+}
+.p{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #666;
+}
+/* common font end */
+
+/* header start */
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.599), rgba(0, 0, 0, 0.439)), url(../img/banner.jpg);
+    background-size: cover;
+    height: auto;
+}
+        /* navbar start */
+header .fa-rebel{
+    font-size: 32px;
+    font-weight: 800;
+    color: #30c39e;
+}
+header .navbar-brand span{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: white;
+}
+header .nav-link{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+}
+header .nav-link:hover, .nav-link:focus{
+    color: #30c39e;
+}
+header .navbar-nav .nav-link.active,
+header .navbar-nav .show>.nav-link {
+    color: #30c39e;
+}
+header .navbar-toggler {
+    background-color: #30c39e;
+    transition: 0.8s;
+}
+        /* navbar end */
+        /* navbar start */
+.head {
+    max-height: auto;
+}
+.head p{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 20px 0px;
+    margin: 0px;
+}
+.head h1{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #30c39e;
+    padding: 0px;
+    margin: 0px;
+}
+.head .articel{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 1px;
+    padding:  0px 0px 40px 0px;
+}
+.head .btn{
+    padding: 10px 40px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    color: white;
+}
+.head .btn:hover{
+    background: #30c39e;
+    border:2px solid #30c39e;
+    transition: 0.5s;
+}
+/* navbar end */
+/* header end */
+
+/* about start */
+/* 1st col */
+.cv-btn{
+    padding: 10px 45px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    border:2px solid #0c8ea0;
+    background: #0c8ea0;
+}
+.cv-btn:hover{
+    background: #fff;
+    color: #333;
+    border:2px solid #333;
+    transition: 0.5s;
+}
+/* 2nd col */
+.about-img{
+    width: auto;
+}
+/* about end */
+
+/* services start */
+.services{
+    background: #30c39e;
+}
+.services .sub-title{
+    border-bottom: 4px solid #fff !important;
+}
+.services .sub-title,
+.services .min-title,
+.services .p {
+    color: #fff;
+}
+/* services end */
+
+/* Experience start */
+.Experience .ex{
+    width: auto;
+    margin: 0px auto;
+    background: rgba(102, 102, 102, 0.1);
+    border-radius: 5px;
+}
+.Experience .ex-img{
+    border-radius: 5px;
+}
+.Experience .ex-article{
+    max-width: 330px;
+    padding: 20px;
+}
+.Experience .ex-article .year{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #fff;
+    padding: 7px;
+    background: #30c39e;
+    border-radius: 4px;
+}
+/* Experience end */
+/* blog start */
+.blog{
+    background: linear-gradient(rgba(0, 0, 0, 0.176), rgba(0, 0, 0, 0.138)), url(../img/blog1.jpg);
+    background-size: cover;
+    height: auto;
+}
+.blog h3{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.blog-p{
+    max-width: 55%;
+    color: #ccc;
+}
+.blog .ex{
+    width: auto;
+    margin: 0px auto;
+}
+.blog .sub-title{
+    color: #fff;
+    border-bottom: 4px solid #fff !important;
+}
+.blog .blog-article{
+    max-width: 330px;
+    padding: 20px;
+}
+.blog .blog-article .year{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #fff;
+    padding: 7px;
+    background: #30c39e;
+    border-radius: 4px;
+}
+.blog .btn{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #0c8ea0;
+}
+.blog .btn:hover{
+    transition: 0.5s;
+}
+/* Experience end */
