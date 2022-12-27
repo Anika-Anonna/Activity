@@ -219,7 +219,7 @@ header .navbar-toggler {
     transition: 0.5s;
 }
 /* Experience end */
-/* info start */
+/* article start */
 .info{
     background:#0c8ea0;
 }
@@ -254,4 +254,34 @@ header .navbar-toggler {
     background: #fff;
     transition: 0.5s;
 }
-/* info end */
+/* article end */
+/* form start */
+form .btn{
+    padding: 10px 45px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    border:2px solid #0c8ea0;
+    background: #0c8ea0;
+}
+form .btn:hover{
+    background: #fff;
+    color: #333;
+    border:2px solid #333;
+    transition: 0.5s;
+}
+form label{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #30c39e;
+   
+}
+address i{
+    color: #30c39e;
+}
